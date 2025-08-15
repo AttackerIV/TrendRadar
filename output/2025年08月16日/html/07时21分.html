@@ -1,0 +1,114 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-08-16 07:21:50</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">国产 中国</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753416" target="_blank" class="news-link">中国央行：落实落细适度宽松的货币政策</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时21分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2116584" target="_blank" class="news-link">中国顶流私募“美股成绩单”：李录罕见重仓拼多多 高毅大举清仓中概股</a> [7] <font color='grey'>- 07时21分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7538583155935022618/" target="_blank" class="news-link">中国男篮能进亚洲杯决赛吗</a> [14] <font color='grey'>- 07时21分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A9%BB%E8%8B%B1%E4%BD%BF%E9%A6%86%E6%8F%90%E9%86%92%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E5%8A%A0%E5%BC%BA%E5%AE%89%E5%85%A8%E9%98%B2%E8%8C%83" target="_blank" class="news-link">驻英使馆提醒中国公民加强安全防范</a> [22] <font color='grey'>- 07时21分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">AI 大模型</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753372" target="_blank" class="news-link">段永平Q2豪赌AI：谷歌持仓暴增75%，英伟达加仓近50%，同时加仓苹果、拼多多</a> [8] <font color='grey'>- 07时21分</font><br>[知乎] <a href="https://www.zhihu.com/question/1938987298772457453" target="_blank" class="news-link">邓紫棋自曝 2019 年就投资 AI，已经赚了 10 倍，明星投资有哪些趣闻？普通人能从中学到些什么？</a> [8] <font color='grey'>- 07时21分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">聚变 磁约束 能源</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31405514" target="_blank" class="news-link">新能源汽车开到树上？西安警方：司机操作不当，已排除酒驾毒驾</a> [20] <font color='grey'>- 07时21分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">京东 刘强东</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753377" target="_blank" class="news-link">A股全线上涨，超4600股飘红，券商集体爆发，港股下跌，南向资金净买入创新高，京东、阿里跌超3%</a> [10] <font color='grey'>- 07时21分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">美国</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%BF%9110%E5%B9%B4%E4%BF%84%E7%BD%97%E6%96%AF%E6%80%BB%E7%BB%9F%E9%A6%96%E6%AC%A1%E8%B8%8F%E4%B8%8A%E7%BE%8E%E5%9B%BD%E9%A2%86%E5%9C%9F" target="_blank" class="news-link">近10年俄罗斯总统首次踏上美国领土</a> [10] <font color='grey'>- 07时21分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E8%BF%9110%E5%B9%B4%E4%BF%84%E7%BD%97%E6%96%AF%E6%80%BB%E7%BB%9F%E9%A6%96%E6%AC%A1%E8%B8%8F%E4%B8%8A%E7%BE%8E%E5%9B%BD%E9%A2%86%E5%9C%9F" target="_blank" class="news-link">近10年俄罗斯总统首次踏上美国领土</a> [10]</li></ul></div>
+        </body>
+        </html>
+        
